@@ -1,0 +1,268 @@
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~
+$ ls
+AppData/
+Application Data@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Dropbox/
+Favorites/
+Links/
+Local Settings@
+Music/
+My Documents@
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001        .regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002        .regtrans-ms
+ntuser.ini
+Pictures/
+PrintHood@
+Recent@
+Saved Games/
+Searches/
+SendTo@
+Start Menu@
+Templates@
+Videos/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~
+$ cd My\ Documents/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents
+$ ls
+desktop.ini         My Music@     sample2.txt
+GitHubAssignment/   My Pictures@  sentences.txt
+GitHubAssignment2/  My Videos@    Visual Studio 2015/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents
+$ cd Visual\ Studio\ 2015/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015
+$ ls
+ArchitectureExplorer/  Code Snippets/  Settings/    Templates/
+Backup Files/          Projects/       StartPages/  Visualizers/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015
+$ cd Projects/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects (m        aster)
+$ ls
+Chap8_TryItOutCylinder_01092016/        Week2_SwitchCasePractice_01122016/
+CodeEval _EmailValid_02042016/          Week2_SwitchCaseWarmUp_01132016/
+CodeEval_BitPositions_01302016/         Week2_SwitchExercise2_01122016/
+CodeEval_CapitalizeLetters_02022016/    Week3 _ ArrayPractice2_01182016/
+CodeEval_MultiplyLists_01302016/        Week3_ StringPractice_01202016/
+CodeEval_NModM_02142016/                Week3_ArrayPractice_01182016/
+CodeEval_Palindrome_02022016/           Week3_CodeEvalFindAWriter_01202016/
+CodeEval_ReadMore_02072016/             Week3_CodeEvalFizzBuzz_01162016.cs
+CodeEval_SwapCase_01302016/             Week3_CodeEvalLongestWord_01182016/
+CodeEval_TimeToEat_02142016/            Week3_CodeEvalOddNumber_01162016/
+ConsoleIO_01042016/                     Week3_CodeEvalPenultimate_01182016/
+DataTypeVariables_01052016/             Week3_CodeEvalSumOfIntegers_01192016/
+Exercise1_OddEven_01062015/             Week3_LoopPractice_01192016/
+FirstConsoleApp/                        Week3_ProjectFortuneTeller_01202016/
+HelloWorld/                             Week4_Practice_01302016/
+HelloWorld2/                            Week4_ProjectWeek_ResourceCheckout/
+Operators_01052016/                     Week5_LostTeeth_02042016/
+Operators_01062016/                     Week5_MethodPractice_02032016/
+Project1_Add5Integers_01072016/         Week5_MethodPractice_02042016/
+Project1_CircleAreaCircum_01072016/     Week5_MethodsProject_02062016/
+Project1_CompanyManagerInfo_01072016/   Week5_StringBuilder_02022016/
+Project1_QuotationMarks_01072016/       Week6_DictionaryPractice_02102016/
+Project2_FizzBuzz_01102016/             Week6_DictionaryPractice2_02102016/
+Week2_CodeEvalComparePoints_01122016/   Week6_ListsPractice_02092016/
+Week2_ConditionalEx1_01112016/          Week6_MinutesProjectDay_02112016/
+Week2_ConditionalRepetitions_01122016/  Week6_StreamPractice_02082016/
+Week2_Conditionals_01112016/            Week6_StreamReader_02092016/
+Week2_ConditionalsSlide40_01112016/     Week7_ProjectWeek_ResourcesProjectv2/
+Week2_ConditionalsSlide41_01112016/     Week8_BankAccountProject_02252016/
+Week2_CourseIntegration1_01122016/      Week8_ClassPractice_02232016/
+Week2_CourseIntegration2_01122016/      Week8_ClassPractice_02242016/
+Week2_LoopPractice_01132016/            Week8_ColorBallClassPractice_02242016/
+Week2_LoopPractice_01142016/            Week8_SystemClassPractice_02222016/
+Week2_LoopsMorePractice_01142016/       Week9_BankAccountProjectv2_03012016/
+Week2_LoopsMorePractice2_01142016/      Week9_InheritancePractice_02292016/
+Week2_LoopsMorePractice3_01142016/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects (m        aster)
+$ cd Week9_BankAccountProjectv2_03012016/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git init
+Initialized empty Git repository in C:/Users/WeCanCodeIT/My Documents/Visual Stu        dio 2015/Projects/Week9_BankAccountProjectv2_03012016/.git/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .vs/
+        Week9_BankAccountProjectv2_03012016.sln
+        Week9_BankAccountProjectv2_03012016/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git add .
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .vs/Week9_BankAccountProjectv2_03012016/v14/.suo
+        new file:   Week9_BankAccountProjectv2_03012016.sln
+        new file:   Week9_BankAccountProjectv2_03012016/Account.cs
+        new file:   Week9_BankAccountProjectv2_03012016/App.config
+        new file:   Week9_BankAccountProjectv2_03012016/CheckingAccount.cs
+        new file:   Week9_BankAccountProjectv2_03012016/Client.cs
+        new file:   Week9_BankAccountProjectv2_03012016/Program.cs
+        new file:   Week9_BankAccountProjectv2_03012016/Properties/AssemblyInfo.        cs
+        new file:   Week9_BankAccountProjectv2_03012016/ReserveAccount.cs
+        new file:   Week9_BankAccountProjectv2_03012016/SavingsAccount.cs
+        new file:   Week9_BankAccountProjectv2_03012016/Week9_BankAccountProject        v2_03012016.csproj
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        .txt
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Checking.txt
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Reserve.txt
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Savings.txt
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.exe
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.exe.config
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.pdb
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe.config
+        new file:   Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe.manifest
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/DesignTimeReso        lveAssemblyReferencesInput.cache
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.csproj.FileListAbsolute.txt
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.csprojResolveAssemblyReference.cache
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.exe
+        new file:   Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.pdb
+
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git commit -m "initial commit bank account version 2"
+[master (root-commit) b267f9a] initial commit bank account version 2
+ Committer: Evans WeCanCodeIT <Evans WeCanCodeIT>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 29 files changed, 843 insertions(+)
+ create mode 100644 .vs/Week9_BankAccountProjectv2_03012016/v14/.suo
+ create mode 100644 Week9_BankAccountProjectv2_03012016.sln
+ create mode 100644 Week9_BankAccountProjectv2_03012016/Account.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/App.config
+ create mode 100644 Week9_BankAccountProjectv2_03012016/CheckingAccount.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/Client.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/Program.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/Properties/AssemblyInfo.        cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/ReserveAccount.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/SavingsAccount.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/Week9_BankAccountProject        v2_03012016.csproj
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        .txt
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Checking.txt
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Reserve.txt
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/AccountSummary        Savings.txt
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.exe
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.exe.config
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.pdb
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe.config
+ create mode 100644 Week9_BankAccountProjectv2_03012016/bin/Debug/Week9_BankAcco        untProjectv2_03012016.vshost.exe.manifest
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/DesignTimeReso        lveAssemblyReferencesInput.cache
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/TemporaryGener        atedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.csproj.FileListAbsolute.txt
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.csprojResolveAssemblyReference.cache
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.exe
+ create mode 100644 Week9_BankAccountProjectv2_03012016/obj/Debug/Week9_BankAcco        untProjectv2_03012016.pdb
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git remove add origin https://github.com/jen3ten/AccountProject.git
+git: 'remove' is not a git command. See 'git --help'.
+
+Did you mean this?
+        remote
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git remote add origin https://github.com/jen3ten/AccountProject.git
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git push -u origin master
+To https://github.com/jen3ten/AccountProject.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/jen3ten/AccountProject.gi        t'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git remote add origin https://github.com/jen3ten/Evans_BankAccountV2.git
+fatal: remote origin already exists.
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/WeCanCodeIT/My Documents/Visua        l Studio 2015/Projects/Week9_BankAccountProjectv2_03012016/.git/
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git add .
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git commit -m "initial setup commit account version 2"
+On branch master
+nothing to commit, working directory clean
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$ git remote add origin https://github.com/jen3ten/Evans_BankAccountV2.git
+fatal: remote origin already exists.
+
+WeCanCodeIT@WeCanCodeIT-24 MINGW64 ~/My Documents/Visual Studio 2015/Projects/We        ek9_BankAccountProjectv2_03012016 (master)
+$

@@ -1,0 +1,26 @@
+Jennifer Evans
+Bootcamp Resource Library Project Feedback
+2/18/2016
+______________________________________________________
+
+Everything should be working.  Let me know if it is not, or if you discovered an error.  Thanks!
+
+
+
+Wow.. not just functional, but asthetically pleasing!  :)  
+
+I actually found a bug!! One tiny star in the Return Book Screen on the "Student's ACCOUNT" line is not lining up with the rest.  I screenshotted it for you. It's copied in paint.  
+
+Very neat, clean, and straightforward.  Awesome! 
+
+*****************************
+
+
+everything looks really good & all seems to be functioning. possibly provide instructions for printing options (y/n?).
+
+under your view available items when you ask if they would like to print the list you dont give what the options are for printing ie yes or no same with students account
+
+doesnt print goodbye or other exiting message before closing on exit
+****************************
+I think the designs overall is very nice, and easy to navigate through.Everything appears to be working as designed. 
+

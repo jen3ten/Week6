@@ -1,0 +1,78 @@
+Jennifer Evans
+2/29/2016
+Bank Account Project Peer Review
+***********************************************************************************************
+Peer reviewer 1: The program ends immediately so the goodbye message is not visible when in debug mode.
+
+Some clutter in the source code could be reduced with loops and exit characters.
+
+2nd Reviewer: The program works very well, very clear instruction as far as depositing and withdrwaing money from account very well.
+
+- Also like how you set up the statement that the user has to enter in decimal for (or add cents)
+- very good structure and userability
+- liked the use of transline. 
+
+
+
+
+****************************************
+
+Okay, first, your programs always look so CLEAN and spiffy.  Is that a word?  I see you handled the "too many decimals" problem that I failed to notice.  "Invalid Entry" Very, very nice. 
+
+Holy crap! You used Regex in here!  Expertly done!  I keep trying to break your code, and no dice of course.  Beautiful execution of that validity checkpoint.  
+
+Lovely code that here appears
+Slate wiped clean with console.clear()
+Your project so neatly done
+If this were a contest... you would have won. 
+
+^_^
+
+
+
+**************************************
+
+
+It is set up very nicely.
+
+There is no message when exiting the program.
+
+
+It might make things even cleaner if you put the title in a met
+d and called when you need to display it rather then rewritting it all the time
+
+nit picking (cause I am out of things to say and we have a ton of time left) but I think it is nice to show the balcane when you make a deposit or withdraw so its clearer to the user what is happening
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

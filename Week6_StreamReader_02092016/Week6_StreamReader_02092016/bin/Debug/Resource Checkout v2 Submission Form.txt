@@ -1,0 +1,91 @@
+Jennifer Evans
+Resource Checkout Program, v2
+Submission Form
+
+Name of StringBuilder1: studentFileName
+Line numbers: 314
+Description: (what it does, why you used it, step by step, why you used each line of code)
+studentFileName creates a string that will become the name of the text file for the student account information.  The following substrings are appended to it: student first name, student last name, student ID, and the ".txt" extension.  It is converted to a string and used in the new StreamWriter declaration statement (line 330) as the file name.
+
+Name of StringBuilder2: nameLine
+Line numbers: 320
+Description: (what it does, why you used it, step by step, why you used each line of code)
+nameLine creates a string that will be written to the student account text file to display the student name information.  The following substrings are appended to it: "Student Name: " text and the student name that was sent to the method as a parameter.  It is converted to a string before writing it to the file.
+
+Name of StringBuilder3: idLine
+Line numbers: 325
+Description: (what it does, why you used it, step by step, why you used each line of code)
+idLine creates a string that will be written to the student account text file to display the student ID information.  The following substrings are appended to it: "Student ID: " text and the student ID from the student ID dictionary.  It is converted to a string before writing it to the file.
+
+Name of StringBuilder4: checkedOutLine
+Line numbers: 367
+Description: (what it does, why you used it, step by step, why you used each line of code)
+checkedOutLine creates a string that will be written to the checked out resources text file.  It displays the name of the resource in quotes and the name of the student who checked it out.  The following substrings are appended to it: " quotation mark, the resource name (the key in resourceDictionary), " quotation mark, the text "has been checked out by", and the student name (the value in resourceDictionary).  It is converted to a string before writing it to the file.
+
+Name of Method1: ResetScreen() (lines 12-21)
+Line numbers where invoked: 150, 420, 437, 499, 503, 506, 511, 514, 519, 522, 527, 530, 535, 538, 544
+Description: (explain whats happening, describe parameters and returns)
+ResetScreen() clears the screen and prints the title.  It has no parameters and no returns.  First, the Console.Clear() method is called.  Then there are several Console.WriteLine commands that print decorative lines and "BOOTCAMP RESOURCE LIBRARY" to the screen.
+
+Name of Method2: Menu() (lines 23-45)
+Line numbers where invoked: 495
+Description: (explain whats happening, describe parameters and returns)
+Menu() presents the main menu to the user.  It has no parameters.  It returns the user's menu selection as string data type.  This method is mostly a series of Console.WriteLine commands that print the main user menu to the screen.  The menu consists of a title ("MENU") and user options, such as "View Student Account", "View Available Items", "View Student Accounts", "Checkout Item", "Return Item", and "Exit", surrounded by decorative * (asterisks).  The user is asked to enter a menu selection, and the method assigns the user input to a string.  The string is converted to upper case and returned from the method.  The validity of the user input is not checked within the Menu() method, it is performed in the Main() method through a switch statement.
+
+Name of Method3: PrintStudentList() (lines 47-64)
+Line numbers where invoked: 500, 515, 523, 531
+Description: (explain whats happening, describe parameters and returns)
+PrintStudentList() presents a numbered student list to the user.  It has a parameter of type List called "studentList", which holds a list of student names.  It has no return value.  The method contains a number of Console.WriteLine commands which display the title ("STUDENT LIST") and decorative * (asterisks) to the screen.  In addition, a foreach loop is used to loop through all student names in List "studentList".  Each student name is written to the console, along with a number.  The number comes from a variable ("num") that is initialized to 1 and incremented during each iteration of the loop.  This method only prints the student list, it does not read any user input.
+
+Name of Method4: MaxResources() (lines 211-228)
+Line numbers where invoked: 175
+Description: (explain whats happening, describe parameters and returns)
+MaxResources() checks to see if the student has already checked out the maximum of 3 resources.  It has parameters of type string called "studentName" that holds the students name, and type Dictionary called "resourceDictionary" that holds the names of the resources and who checked them out.  MaxResources() has a return value of type bool, which is set to true if the maximum number of resources have been checked out.  First the boolean variable is initialized to false and a counter ("count") is initialized to 0.  A foreach loop is used to loop through each key value pair of the resourceDictionary. This dictionary holds the name of every resource as the key field and the name of the student who has checked it out as the value.  If the resource is not checked out, the value is an empty string.  For every value equal to the student name, the counter is incremented.  When the loop is complete, the counter is checked.  If 3 (or more) resources have been checked out by the student, the boolean variable is set to true.  The method then returns the boolean value. 
+
+Name of Method5: PrintStudentTextFile() (lines 386-409)
+Line numbers where invoked: 152
+Description: (explain whats happening, describe parameters and returns)
+PrintStudentTextFile() prints the student account text file to the screen.  It has parameters of type string called "studentName" that holds the student's name, and type Dictionary called "studentIDDictionary" that holds all student names and IDs.  PrintStudentTextFile() has no return values.  First the student name that was sent as a parameter is split and assigned to a string array.  Then a StringBuilder is defined to create the file name.  The first name, last name, student ID, and the .txt extension are all appended to the StringBuilder.  Then a StreamReader object is created to read from the text file.  A do-while loop increments through each line of the StreamReader and writes the line to the console.  The loop continues until a line with a null value is found.  Then the StreamReader is closed.
+
+{List all Lists and Dictionaries}
+Name of List1: studentList of type string (line 443)
+Line numbers where used: 50, 56, 104, 108, 118, 159, 163, 174, 233, 237, 248, 486, 500, 515, 516, 523, 524, 531, 532
+Description: (how it is filled, how it is used)
+The studentList is a list of strings that holds all student names.  It is filled using the .Add() method and a literal assignment of each student name.  The list is then sorted.  It is sent as a parameter and used in multiple methods.
+
+Name of List2: resourceList of type string (line 461)
+Line numbers where used: 477
+Description: (how it is filled, how it is used)
+The resourceList is a list of strings that holds all resource names.  It is filled using the .Add() method and a literal assignment of each resource name.  The list is then sorted.  It is used to fill the resourceDictionary. 
+
+Name of List3: availableResources of type string (line 71)
+Line numbers where used: 84, 95
+Description: (how it is filled, how it is used)
+The availableResources list is a temporary list of strings that holds the available resources.  It is filled with the .Add() method as the available resources are identified from the resourceDictionary and printed to the console.  The list is returned with the PrintAvailableResources() method.  It is used in the checkoutResource() method to identify the resource name associated with the resource number the user selects.
+
+Name of List4: studentResourceList of type string (line 263)
+Line numbers where used: 271, 298
+The studentResourceList list is a temporary list of strings that holds the checked out resources for a student.  It is filled with the .Add() method as the checked out resources for the student are identified from the resourceDictionary and printed to the console.  It is used in the ReturnResource() method when a count of the student's resources is needed, in addition to identifying the resource name associated with the resource number, entered by the user.  And then resetting that resource to an empty string "" in the resourceDictionary.
+
+Name of Dictionary1: resourceDictionary of type string, string (line 476)
+Line numbers where used: 78, 130, 151, 175, 183, 202, 218, 265, 299, 338, 363, 421, 479, 489, 507, 508, 516, 524, 532
+Description: (how it is filled, how it is used)
+Resource dictionary holds keys with the resource names and values equal to name of student who checked out item, or blank if not checked out.  The dictionary is initialized with resource names from the resourceList using the .Add() method. It is sent as a parameter and used in multiple methods, whenever a list of all resources, available resources, checked out resources, or a list of resources checked out by a particular student is needed.
+
+Name of Dictionary2:studentIDDictionary of type string, int (line 484)
+Line numbers where used: 84, 95, 151, 152, 317, 327, 396, 489, 516
+Description: (how it is filled, how it is used)
+StudentID dictionary holds keys with the student names and values equal to the student ID.  The dictionary is initialized with student names from the studentList and unique integer ID numbers using the .Add() method. It is used in the PrintStudentAccount(), UpdateStudentTextFile(), and PrintStudentTextFile() methods whenever a student ID is needed.
+
+Name of StreamWriter: writeStudentAccount
+Line number: 330
+
+Name of StreamReader: readStudentAccount
+Line number: 399
+
+Test and Debug:
+I debug and anticipate problems and consider various different scenarios of user entry as I build my code, so there is often very little that "breaks" by the time I have a complete program.  But here are a few...
+
+In several locations of the program formatting of * on screen was misaligned on the right column.  The use of tabs, spaces and some padding (formatting of text to align within a column) on my string was not working.  I added the use of a StringBuilder and built one long string, which could then be formatted as a whole and aligns within a 34 character column (using {0,-34}).  The * was added at the end of this string, always being placed at the 35th position.
+
+At two points in the program I ask the user if they would like to print information to the screen and to "enter y/n".  Although the code worked for y or n (in addition to all other chars that are treated as n), it considered an entry of "yes" as no and did not print to the screen.  I added to the if statement to capture this answer.  All responses are first converted to upper case.  The new if statement says if(response == "Y" || response == "YES") then print information to the screen.

@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\bin\Debug\Week6_StreamPractice_02082016.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\bin\Debug\Week6_StreamPractice_02082016.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\bin\Debug\Week6_StreamPractice_02082016.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\obj\Debug\Week6_StreamPractice_02082016.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\obj\Debug\Week6_StreamPractice_02082016.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week6_StreamPractice_02082016\Week6_StreamPractice_02082016\obj\Debug\Week6_StreamPractice_02082016.pdb
